@@ -48,7 +48,7 @@ TEST_F(SmartTreeStep4Tests, WorksProperlyWithInbalancedTree) {
 
 TEST_F(SmartTreeStep4Tests, WorksProperlyWithRightlyInbalancedTree) {
   root->right->right = InsertLeftChild(move(root->right->right), CreateLeaf(888));
-  root->right->right->right = InsertLeftChild(move(root->right->right->right), CreateLeaf(901));
+  /*root->right->right->right = InsertLeftChild(move(root->right->right->right), CreateLeaf(901));*/
   auto tree = DumpTree(root);
   EXPECT_EQ(
       "[99 [100 [1234 [none] [none]] [4321 [none] [none]]] "
