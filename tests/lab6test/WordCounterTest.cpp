@@ -56,4 +56,3 @@ TEST_F(WordCounterTests, IsAbleListWords) {
   EXPECT_EQ(ii,ij);
   EXPECT_EQ(expected_words, counter.Words());
 }
-

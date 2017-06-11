@@ -10,7 +10,7 @@ set(REVERSE_STRING_SRC ReverseStringTest.cpp)
 set(PALINDROME_SRC PalindromeTest.cpp)
 set(MULTIPLICATION_TABLE_SRC MultiplicationTableTest.cpp)
 set(DOUBLE_BASE_PALINDROME_SRC DoubleBasePalindromeTest.cpp)
-set(SOURCE_FILES ${FACTORIAL_SRC} ${REVERSE_STRING_SRC} ${PALINDROME_SRC} ${MULTIPLICATION_TABLE_SRC} ${DOUBLE_BASE_PALINDROME_SRC} ../../lab4/netstemplateengine/SimpleTemplateEngine.cpp ../../lab4/netstemplateengine/SimpleTemplateEngine.h ../../lab4/netstemplateengine/main.cpp ../../lab5/matrix/Matrix.cpp ../../lab5/matrix/Matrix.h ../../lab5/matrix/main.cpp)
+set(SOURCE_FILES ${FACTORIAL_SRC} ${REVERSE_STRING_SRC} ${PALINDROME_SRC} ${MULTIPLICATION_TABLE_SRC} ${DOUBLE_BASE_PALINDROME_SRC} ../../lab4/netstemplateengine/SimpleTemplateEngine.cpp ../../lab4/netstemplateengine/SimpleTemplateEngine.h ../../lab4/netstemplateengine/main.cpp ../../lab5/matrix/Matrix.cpp ../../lab5/matrix/Matrix.h ../../lab5/matrix/main.cpp ../../lab6/wordcounter/WordCounter.cpp ../../lab6/wordcounter/WordCounter.h ../../lab6/wordcounter/main.cpp ../../lab6/wordcounter/Word.cpp ../../lab6/wordcounter/Word.h ../../lab6/wordcounter/Counts.cpp ../../lab6/wordcounter/Counts.h "../../lab6/wordcounter/WordCounter.cpp" "../../lab6/wordcounter/WordCounter.h" ../../lab6/wordcounter/main.cpp ../../lab8/moviesubtitles/main.cpp ../../lab8/moviesubtitles/MovieSubtitles.cpp ../../lab8/moviesubtitles/MovieSubtitles.h ../../lab12/tree/main.cpp ../../lab12/timerecorder/TimeRecorder.cpp ../../lab12/timerecorder/TimeRecorder.h ../../lab12/timerecorder/main.cpp ../../lab12/tree/Tree.cpp)
 
 set(GTEST_LIBS gtest gtest_main gmock gmock_main)
 
